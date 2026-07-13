@@ -4,6 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DND Battle Sim</title>
+    <link rel="stylesheet" href="lib/styles.css" />
+    <script src="lib/character.js" defer></script>
+    <script src="lib/script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div id="topSection">
+      <h1>DND Battle Sim</h1>
+      <br />
+      <button type="button" id="addPlayer">Add Player</button>
+      <button type="button" id="addEnemy">Add Enemy</button>
+      <br />
+    </div>
+
+    <br />
+    <div id="playerSection" class="characterSection">
+      <h2>Player Team</h2>
+      <div id="playerRow"></div>
+    </div>
+
+    <div id="enemySection" class="characterSection">
+      <h2>Enemy Team</h2>
+      <div id="enemyRow"></div>
+    </div>
+  </body>
 </html>
